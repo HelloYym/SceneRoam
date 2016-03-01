@@ -8,7 +8,7 @@
 
 #include "MonitorModel.hpp"
 
-void MonitorModel::setVideo(string mtl, int nFrame, string pic){
+void MonitorModel::setVideo(string mtl, int nFrame, string path){
     materials[mtl].isVideo = true;
     for (int i = 0; i < nFrame; i++){
         stringstream ss;
@@ -19,7 +19,7 @@ void MonitorModel::setVideo(string mtl, int nFrame, string pic){
         GLuint texture;
         glGenTextures(1, &texture);
         
-        string texPath = filePath + "/" + pic + str + ".bmp";
+        string texPath = path + "/" + str + ".bmp";
         
         char ch[30];
         strcpy(ch, texPath.c_str());
@@ -48,9 +48,9 @@ void MonitorModel::draw(){
                 glEnable(GL_COLOR_MATERIAL);
                 glEnable(GL_TEXTURE_2D);
                 if (playing && material.isVideo){
-                    GLuint texture = material.videoFrames[material.curFrame];
+                    GLuint texture = material.videoFrames[material.curFrame / 3];
                     material.curFrame++;
-                    if (material.curFrame >= material.videoFrames.size())
+                    if (material.curFrame >= material.videoFrames.size() * 3)
                         material.curFrame = 0;
                     materials[group.material].curFrame = material.curFrame;
                     glBindTexture(GL_TEXTURE_2D, texture);  //选择纹理texture[0]

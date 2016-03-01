@@ -319,7 +319,7 @@ bool ObjModel::loadMTL(){
 
 
 
-void ObjModel::rander(){
+void ObjModel::render(){
     for (int i = 0; i < groups.size(); i++){
         ObjGroup group = groups[i];
         if (!group.material.empty()){
@@ -379,7 +379,7 @@ void ObjModel::rander(){
 
 
 
-void ObjModel::unitize(){
+void ObjModel::unitize(GLfloat ratio){
     GLfloat maxx, minx, maxy, miny, maxz, minz;
     GLfloat cx, cy, cz, w, h, d;
     GLfloat scale;
@@ -444,7 +444,7 @@ void ObjModel::unitize(){
     cz = (maxz + minz) / 2.0;
     
     
-    scale = 2.0 / max(max(w, h), d);
+    scale = ratio / max(max(w, h), d);
 
 
     for (int i = 0; i < groups.size(); i++){
@@ -627,7 +627,7 @@ GLuint ObjModel::list()
     GLuint list;
     list = glGenLists(1);
     glNewList(list, GL_COMPILE);
-    rander();
+    render();
     glEndList();
     return list;
 }
@@ -648,11 +648,12 @@ void ObjModel::draw(){
         objList = list();
     glPushMatrix();
     glTranslatef(position.x, position.y, position.z);
+    glRotated(ori, 0, 1, 0);
     glCallList(objList);
     glPopMatrix();
 }
 
-
+//添加旋转信息
 void ObjModel::setArea(){
     area.x = getMinX() + position.x;
     area.y = getMinY() + position.y;
@@ -660,7 +661,13 @@ void ObjModel::setArea(){
     getDimensions(area.dimensions);
 }
 
-Area ObjModel::getArea(){
+Area& ObjModel::getArea(){
+    setArea();
     return area;
+}
+
+
+void ObjModel::rotate(GLuint ori){
+    this->ori = ori;
 }
 

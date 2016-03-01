@@ -19,7 +19,10 @@ private:
     GLfloat speed = 0.7f;
 public:
     bool isOpen(){
-        return state;
+        if (angle == 0)
+            return false;
+        else
+            return true;
     }
     void open(){
         state = 1;
@@ -28,6 +31,8 @@ public:
         state = 0;
     }
     void draw();
+    
+    void setArea();
 };
 
 #endif /* DoorModel_hpp */

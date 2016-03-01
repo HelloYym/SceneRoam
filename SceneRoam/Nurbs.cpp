@@ -12,8 +12,8 @@
 void Nurbs::init(){
     for(int u = 0 ; u < 5 ; u++ )
         for(int v = 0 ; v < 5 ; v++ ){
-            ctlpoints[u][v][0] = u - 2;
-            ctlpoints[u][v][2] = v - 2;
+            ctlpoints[u][v][0] = (u - 2) * 0.5;
+            ctlpoints[u][v][2] = (v - 2) * 0.5;
             ctlpoints[u][v][1] = 0;
         }
     theNurb = gluNewNurbsRenderer();
@@ -65,21 +65,7 @@ void Nurbs::drawSurface()
     glEnable(GL_COLOR_MATERIAL);
     glEnable(GL_TEXTURE_2D);
     glBindTexture(GL_TEXTURE_2D, texture);  //选择纹理texture[0]
-    
-    GLfloat color[4][4] ={
-        {153/255.0f, 120/255.0f, 204/255.0f, 1.0f},
-        {153/255.0f, 120/255.0f, 204/255.0f, 1.0f},
-        {153/255.0f, 120/255.0f, 204/255.0f, 1.0f},
-        {153/255.0f, 120/255.0f, 204/255.0f, 1.0f}
-    };
-    
-    colorCtl++;
-    if (colorCtl > 3)
-        colorCtl = 0;
-    
-    glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, color[colorCtl]);
-    glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, color[colorCtl]);
-    glMaterialf(GL_FRONT_AND_BACK, GL_SHININESS, 100.0f);
+
     
     if (ctlpoints[2][2][1] > 4 || ctlpoints[2][2][1] < 0)
         ctl = -ctl;

@@ -109,6 +109,7 @@ protected:
     GLuint  objList = 10000;
     vec3    position;
     Area    area;
+    GLuint  ori = 0;
     
 public:
     ObjModel(){
@@ -120,19 +121,22 @@ public:
     }
     bool    loadOBJ(string filePath, string objFile);
     void    draw();
-    void    unitize();
+    void    render();
+    void    unitize(GLfloat ratio);
     void    setPosition(GLfloat x, GLfloat y, GLfloat z);
-    Area    getArea();
+    void    rotate(GLuint ori);
+    Area&   getArea();
     
 private:
     bool    loadMTL();
     GLuint  list();
-    void    rander();
+    
+protected:
     void    getDimensions(GLfloat* dimensions);
+    void    setArea();
     GLfloat getMinX();
     GLfloat getMinY();
     GLfloat getMinZ();
-    void    setArea();
 };
 
 

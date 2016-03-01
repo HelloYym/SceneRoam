@@ -18,7 +18,7 @@ private:
     bool playing = false;
     
 public:
-    void    setVideo(string mtl, int nFrame, string pic);
+    void    setVideo(string mtl, int nFrame, string path);
     void    play(){ playing = true; }
     void    pause(){ playing = false; }
     void    draw();

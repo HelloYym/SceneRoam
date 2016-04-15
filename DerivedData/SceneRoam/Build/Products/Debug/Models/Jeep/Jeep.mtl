@@ -1,0 +1,475 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl _cbe2af7_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__553 (2) to come 
+#
+newmtl _cbe2af7_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_143225087
+Ka  0.6 0.9 0.3
+Kd  0.6 0.9 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__553 done 
+#
+newmtl wire_224086086
+Ka  0.9 0.3 0.3
+Kd  0.9 0.3 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_227153153
+Ka  0.9 0.6 0.6
+Kd  0.9 0.6 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__542 (2) to come 
+#
+newmtl _cbe2af7_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_141007058
+Ka  0.5 0.0 0.2
+Kd  0.5 0.0 0.2
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__542 done 
+#
+newmtl wire_143225087
+Ka  0.6 0.9 0.3
+Kd  0.6 0.9 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_176026026
+Ka  0.7 0.1 0.1
+Kd  0.7 0.1 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_154154229
+Ka  0.6 0.6 0.9
+Kd  0.6 0.6 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_006135058
+Ka  0.0 0.5 0.2
+Kd  0.0 0.5 0.2
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_229154215
+Ka  0.9 0.6 0.8
+Kd  0.9 0.6 0.8
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_177148027
+Ka  0.7 0.6 0.1
+Kd  0.7 0.6 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_154185229
+Ka  0.6 0.7 0.9
+Kd  0.6 0.7 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_229166215
+Ka  0.9 0.7 0.8
+Kd  0.9 0.7 0.8
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_006135006
+Ka  0.0 0.5 0.0
+Kd  0.0 0.5 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_213154229
+Ka  0.8 0.6 0.9
+Kd  0.8 0.6 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_027177027
+Ka  0.1 0.7 0.1
+Kd  0.1 0.7 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_057008136
+Ka  0.2 0.0 0.5
+Kd  0.2 0.0 0.5
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_225198087
+Ka  0.9 0.8 0.3
+Kd  0.9 0.8 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_028149177
+Ka  0.1 0.6 0.7
+Kd  0.1 0.6 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_184155229
+Ka  0.7 0.6 0.9
+Kd  0.7 0.6 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__531 (2) to come 
+#
+newmtl a2a7a9e3_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_177088027
+Ka  0.7 0.3 0.1
+Kd  0.7 0.3 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__531 done 
+#
+newmtl wire_006135113
+Ka  0.0 0.5 0.4
+Kd  0.0 0.5 0.4
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_225087143
+Ka  0.9 0.3 0.6
+Kd  0.9 0.3 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_088177027
+Ka  0.3 0.7 0.1
+Kd  0.3 0.7 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_225143087
+Ka  0.9 0.6 0.3
+Kd  0.9 0.6 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_153228214
+Ka  0.6 0.9 0.8
+Kd  0.6 0.9 0.8
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_225088199
+Ka  0.9 0.3 0.8
+Kd  0.9 0.3 0.8
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_113135006
+Ka  0.4 0.5 0.0
+Kd  0.4 0.5 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_088144225
+Ka  0.3 0.6 0.9
+Kd  0.3 0.6 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_166229229
+Ka  0.7 0.9 0.9
+Kd  0.7 0.9 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_153228184
+Ka  0.6 0.9 0.7
+Kd  0.6 0.9 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_145028177
+Ka  0.6 0.1 0.7
+Kd  0.6 0.1 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_135110008
+Ka  0.5 0.4 0.0
+Kd  0.5 0.4 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_214229166
+Ka  0.8 0.9 0.7
+Kd  0.8 0.9 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_086086086
+Ka  0.3 0.3 0.3
+Kd  0.3 0.3 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_087225087
+Ka  0.3 0.9 0.3
+Kd  0.3 0.9 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_154215229
+Ka  0.6 0.8 0.9
+Kd  0.6 0.8 0.9
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_061135006
+Ka  0.2 0.5 0.0
+Kd  0.2 0.5 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_138008110
+Ka  0.5 0.0 0.4
+Kd  0.5 0.0 0.4
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_184228153
+Ka  0.7 0.9 0.6
+Kd  0.7 0.9 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_028028177
+Ka  0.1 0.1 0.7
+Kd  0.1 0.1 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_135006006
+Ka  0.5 0.0 0.0
+Kd  0.5 0.0 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl a2a7a9e3_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_008061138
+Ka  0.0 0.2 0.5
+Kd  0.0 0.2 0.5
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__520 (2) to come 
+#
+newmtl a2a7a9e3_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_148177027
+Ka  0.6 0.7 0.1
+Kd  0.6 0.7 0.1
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# Multi/Sub Material__520 done 
+#
+newmtl wire_177027088
+Ka  0.7 0.1 0.3
+Kd  0.7 0.1 0.3
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_135059008
+Ka  0.5 0.2 0.0
+Kd  0.5 0.2 0.0
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_008008136
+Ka  0.0 0.0 0.5
+Kd  0.0 0.0 0.5
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_087225143
+Ka  0.3 0.9 0.6
+Kd  0.3 0.9 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl b35622d1_dds
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_028089177
+Ka  0.1 0.3 0.7
+Kd  0.1 0.3 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_214228153
+Ka  0.8 0.9 0.6
+Kd  0.8 0.9 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+newmtl wire_228214153
+Ka  0.9 0.8 0.6
+Kd  0.9 0.8 0.6
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  10.0
+illum 2
+#
+# EOF

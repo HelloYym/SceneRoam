@@ -20,7 +20,7 @@ class Nurbs {
 public:
     GLUnurbsObj *theNurb;
     GLfloat ctlpoints[5][5][3];
-    GLfloat tcoords [2][2][2] = {0, 0, 0, 1, 1, 0, 1, 2};
+    GLfloat tcoords [2][2][2] = {0, 0, 0, 1, 1, 0, 1, 1};
     int ctl = 1;
     int colorCtl = 0;
     
